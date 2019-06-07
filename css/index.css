@@ -1,6 +1,6 @@
 .center-mixin {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .space-evenly-mixin {
   display: flex;
@@ -174,7 +174,7 @@ p {
 }
 .nav .title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: 4rem;
 }
 .nav .a-tags {
@@ -182,6 +182,11 @@ p {
   justify-content: space-evenly;
   font-size: 1.5rem;
   margin: 15px 400px 0 400px;
+}
+@media (max-width:1050px) {
+  .nav .a-tags {
+    margin: 0px;
+  }
 }
 @media (max-width: 500px) {
   .nav .a-tags {
