@@ -1,3 +1,7 @@
+.center-mixin {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -166,7 +170,7 @@ p {
 }
 .nav .title {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 4rem;
 }
 .nav .a-tags {
