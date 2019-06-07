@@ -198,6 +198,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .main-img {
+  margin-top: 10px;
+}
 @media (max-width: 500px) {
   .home .intro .main-img {
     width: 100%;
@@ -244,6 +247,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 35%;
+  height: 12%;
+  background-color: #222838;
+  color: white;
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 2px;
+  border-radius: 10%;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: pink;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
