@@ -211,6 +211,11 @@ footer {
 .home .intro .main-img {
   margin-top: 10px;
 }
+@media (max-width:1050px) {
+  .home .intro .main-img {
+    width: 99%;
+  }
+}
 @media (max-width: 500px) {
   .home .intro .main-img {
     width: 100%;
