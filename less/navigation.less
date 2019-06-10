@@ -1,1 +1,21 @@
 // Navigation code here
+.nav {
+    margin-top: 30px;
+    background-color: #f6f6f6;
+    .title {
+        .center-mixin;
+        font-size: 4rem;
+        transition: 10s
+    }
+        .a-tags {
+         .space-evenly-mixin;
+         font-size: 1.5rem;
+         margin: 15px 400px 0 400px;
+         @media @thousand-px {
+            margin: 0px;
+        }
+         @media @phone {
+            margin: 10px 0 0;
+        }
+    }
+}
